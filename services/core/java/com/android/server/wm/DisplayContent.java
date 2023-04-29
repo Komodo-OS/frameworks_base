@@ -4295,7 +4295,8 @@ class DisplayContent extends RootDisplayArea implements WindowManagerPolicy.Disp
     }
 
     boolean forceDesktopMode() {
-        return mWmService.mForceDesktopModeOnExternalDisplays && !isDefaultDisplay && !isPrivate() && !isFreeformDisplay;
+        return ((mDisplay.getFlags() & FLAG_SHOULD_SHOW_SYSTEM_DECORATIONS) != 0 || mWmService.mForceDesktopModeOnExternalDisplays)
+            && !isDefaultDisplay && !isPrivate() && !isFreeformDisplay;
     }
 
     /** @see WindowManagerInternal#onToggleImeRequested */
