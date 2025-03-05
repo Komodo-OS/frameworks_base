@@ -92,7 +92,7 @@ import java.util.NoSuchElementException;
 
 import javax.crypto.SecretKey;
 
-import com.android.internal.util.fortune.PixelPropsUtils;
+import com.android.internal.util.komodo.PixelPropsUtils;
 
 /**
  * A java.security.KeyStore interface for the Android KeyStore. An instance of

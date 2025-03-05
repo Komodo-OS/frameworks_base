@@ -72,9 +72,9 @@ import java.util.Objects;
 import java.util.StringJoiner;
 import java.util.concurrent.TimeoutException;
 
-import com.android.internal.util.fortune.AttestationHooks;
-import com.android.internal.util.fortune.GamesPropsUtils;
-import com.android.internal.util.fortune.PixelPropsUtils;
+import com.android.internal.util.komodo.AttestationHooks;
+import com.android.internal.util.komodo.GamesPropsUtils;
+import com.android.internal.util.komodo.PixelPropsUtils;
 
 /**
  * Base class for implementing application instrumentation code.  When running

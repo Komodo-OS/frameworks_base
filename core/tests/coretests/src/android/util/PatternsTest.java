@@ -193,7 +193,7 @@ public class PatternsTest {
     @Test
     @SmallTest
     public void testWebUrl_matchesUrlWithUnicodePath() throws Exception {
-        String url = "http://brainstormtech.blogs.fortune.cnn.com/2010/03/11/" +
+        String url = "http://brainstormtech.blogs.komodo.cnn.com/2010/03/11/" +
                 "top-five-moments-from-eric-schmidt\u2019s-talk-in-abu-dhabi/";
         assertTrue("Should match URL with Unicode path",
                 Patterns.WEB_URL.matcher(url).matches());
@@ -394,7 +394,7 @@ public class PatternsTest {
     @Test
     @SmallTest
     public void testAutoLinkWebUrl_matchesUrlWithUnicodePath() throws Exception {
-        String url = "http://brainstormtech.blogs.fortune.cnn.com/2010/03/11/" +
+        String url = "http://brainstormtech.blogs.komodo.cnn.com/2010/03/11/" +
                 "top-five-moments-from-eric-schmidt\u2019s-talk-in-abu-dhabi/";
         assertTrue("Should match URL with Unicode path",
                 Patterns.AUTOLINK_WEB_URL.matcher(url).matches());
