@@ -171,13 +171,12 @@ public final class PixelPropsUtils {
     private static final Map<String, String> DEFAULT_VALUES = Map.of(
         "BRAND", "google",
         "MANUFACTURER", "Google",
-        "DEVICE", "lynx",
-        "FINGERPRINT", "google/lynx_beta/lynx:15/BP11.241210.004/12926906:user/release-keys",
-        "MODEL", "Pixel 7a",
-        "PRODUCT", "lynx_beta",
-        "DEVICE_INITIAL_SDK_INT", "21",
-        "SECURITY_PATCH", "2025-01-05",
-        "ID", "BP11.241210.004"
+        "DEVICE", "oriole",
+        "FINGERPRINT", "google/oriole_beta/oriole:16/BP22.250221.015/13278879:user/release-keys",
+        "MODEL", "Pixel 6",
+        "PRODUCT", "oriole_beta",
+        "SECURITY_PATCH", "2025-03-05",
+        "ID", "BP22.250221.015"
     );
 
     private static volatile boolean sIsGms, sIsExcluded;
